@@ -39,7 +39,7 @@ a:-webkit-any-link {
 .cont_wrap {
   max-width: 750px;
   height: 100%;
-  background: linear-gradient(180deg, #e2ead7 0%, #71b209 100%);
+  background: linear-gradient(180deg, #e2ead7 0%, #71b209 70%, #241009 71%);
   background-size: 140%;
   padding-bottom: 28px;
   position: relative;overflow: hidden;
@@ -263,27 +263,11 @@ a:-webkit-any-link {
 
 .light {
   mix-blend-mode: plus-lighter;opacity: .6;
-  width: 540px;position: absolute;bottom: 70%;left:50%;transform: translate(-50%);
+  width: 140%;position: absolute;bottom: 70%;left:50%;transform: translate(-50%);
   
 }
-/* 반응형 */
-@media (max-width: 540px) {
-  .light {
-    width: 140%; 
-  }
-}
-/* 
-@media (max-width: 400px) {
-  .light {
-     top: 70px;
-  }
-}
 
-@media (max-width: 375px) {
-  .light {
-     top: 90px;
-  }
-} */
+/* 반응형 */
 
 @media (max-width: 450px) {
   .cont .tit {
