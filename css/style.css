@@ -112,7 +112,8 @@ a:-webkit-any-link {
 }
 
 .cont .tit {
-  margin-top: 68px;
+  margin-top: 48px;
+  margin-bottom: 16px;
 }
 
 .cont .tit,
