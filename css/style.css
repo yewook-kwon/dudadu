@@ -112,14 +112,14 @@ a:-webkit-any-link {
 }
 
 .cont .tit {
-  margin-top: 64px;
+  margin-top: 68px;
 }
 
 .cont .tit,
 .cont .tit p,
 .cont .tit b {
   text-align: center;
-  font-size: 20px;
+  font-size: 24px;
   color: #fff;
 }
 
